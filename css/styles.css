@@ -133,12 +133,10 @@ header {
 .banner {
     padding: 200px 0;
     text-align: center;
-    object-fit: fill;
-    background-repeat: no-repeat;
     background-color: var(--bg-color);
-    background-image: url("/images/bannerimage.jpg"); /* , url("/images/imgoverlay.png");*/
-    background-position: center;
-    object-fit: cover;
+    background-image: url("/images/bannerimage.jpg"), url("/images/imgoverlay.png");
+    background-size: cover, cover;
+    background-position: center, center;
    
 }
 
