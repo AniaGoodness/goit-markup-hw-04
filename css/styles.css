@@ -129,20 +129,20 @@ header {
     width: 70px;
     height: 70px;
 }
-/* ================baner================ */
-.baner {
+/* ================banner================ */
+.banner {
     padding: 200px 0;
     text-align: center;
     object-fit: fill;
     background-repeat: no-repeat;
     background-color: var(--bg-color);
-    background-image: url("/images/banerimage.jpg"); /* , url("/images/imgoverlay.png");*/
+    background-image: url("/images/bannerimage.jpg"); /* , url("/images/imgoverlay.png");*/
     background-position: center;
     object-fit: cover;
    
 }
 
-.baner-title {
+.banner-title {
     color: var(--primary-color);
     width: 696px;
     font-size: 44px;
