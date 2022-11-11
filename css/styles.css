@@ -52,6 +52,7 @@ button {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+    align-items: center;
 }
 .list {
     list-style: none;
@@ -107,7 +108,7 @@ header {
     line-height: 1.17;
     color: var(--content-color);
     display: flex;
-    gap: 50px;
+    gap: 30px;
     margin-left: auto;
     padding: 32px 0;
 }
@@ -138,6 +139,7 @@ header {
     background-image: url("/images/banerimage.jpg"); /* , url("/images/imgoverlay.png");*/
     background-position: center;
     object-fit: cover;
+   
 }
 
 .baner-title {
