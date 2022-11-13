@@ -136,6 +136,7 @@ header {
     width: 12px;
     height: 16px;
     margin-right: 10px;
+    fill: currentColor;
 }
 /* ================banner================ */
 .banner {
@@ -446,8 +447,9 @@ a.footer-tel-no {
     gap: 30px;
 }
 .portfolio-link {
-    display: flex;
-    flex-direction: column;
+    display: block;
+    text-decoration: none;
+    color: currentColor;
 
 }
 
